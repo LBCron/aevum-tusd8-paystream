@@ -1,0 +1,10 @@
+services:
+  aevum-tusd8-paystream:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - QDAY_AEVUM_RPC=https://rpc-test.qday.info
+      - QDAY_AEVUM_CHAIN_ID=44005
+      - TUSD8_ADDRESS=0x456569838f1d43009A91ebA4263147Afd7233483

@@ -1,0 +1,35 @@
+{
+  "name": "aevum-tusd8-paystream",
+  "version": "1.0.0",
+  "description": "Aevum tUSD8 PayStream — Programmable Stablecoin Streaming, Invoice Factoring & Atomic Escrow DApp on QDay Aevum Testnet (Chain ID 44005)",
+  "main": "src/server.js",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "test": "node --test test/TUSD8PayStream.test.js",
+    "demo": "node scripts/deploy-aevum.js",
+    "interact": "node scripts/interact-aevum.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LBCron/aevum-tusd8-paystream.git"
+  },
+  "keywords": [
+    "qday",
+    "aevum",
+    "tusd8",
+    "stablecoin",
+    "streaming",
+    "invoice-factoring",
+    "erc-8004",
+    "erc-4337",
+    "x402",
+    "dorahacks"
+  ],
+  "author": "Ronan Chen Lopes <ronanchenlopes@gmail.com> (@LBCron)",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "solc": "^0.8.28"
+  }
+}
