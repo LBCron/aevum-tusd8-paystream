@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-11-08T14:39:39.574Z",
+  "network": {
+    "name": "QDay Aevum Testnet",
+    "chainId": 44005,
+    "chainIdHex": "0xabe5",
+    "rpcUrl": "https://rpc-test.qday.info",
+    "explorerUrl": "https://explorer-test.qday.info",
+    "faucetWebUrl": "https://faucet.qday.info/en",
+    "verifiedBlock": 2645798
+  },
+  "deployer": "0x958cbC9378c75cf158e5B19845E7f004B5f8c3f9",
+  "protocolContracts": {
+    "tUSD8": {
+      "address": "0x456569838f1d43009A91ebA4263147Afd7233483",
+      "symbol": "tUSD8",
+      "decimals": 6,
+      "totalSupplyFormatted": "3217400.0",
+      "bytecodeBytes": 1496
+    },
+    "QDayFaucet": {
+      "address": "0x33d19Bde2e1798c13808f17BfBa1780b28e4bACC",
+      "balanceTQDAY": "900.0"
+    },
+    "tUSD8Faucet": {
+      "address": "0x4551B2a3dE4F43e6613E23edf798Ab4FB0211564"
+    }
+  },
+  "contracts": {
+    "ERC8004PayeeRegistry": {
+      "deterministicAddressNonce0": "0xDd116715Ef68a7D81a62730280a445751eD4CE5b",
+      "liveEstimateGas": "647373"
+    },
+    "TUSD8PayStream": {
+      "deterministicAddressNonce1": "0x4AF0fa04c75797f354E24e768E9AE1D9A655A1FA",
+      "constructorVerifiedAgainstLiveTUSD8": true,
+      "liveEstimateGas": "2700863"
+    }
+  }
+}
